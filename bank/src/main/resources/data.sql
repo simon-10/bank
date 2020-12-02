@@ -1,0 +1,10 @@
+-- CREATE TABLE user (
+--   id INT  PRIMARY KEY,
+--   name VARCHAR(250) NOT NULL,
+--
+-- );
+--
+-- INSERT INTO user (id, name) VALUES
+--   (101, 'Dangote'),
+--   (102, 'Gates'),
+--   (103, 'Alakija');
