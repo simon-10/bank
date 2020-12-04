@@ -1,0 +1,525 @@
+{
+	"info": {
+		"_postman_id": "3aa5c613-625e-4a5f-8e78-f2ad79814c1b",
+		"name": "Points-Bank-Api-Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add [DANNON, 300 points, 10/31 10AM] to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/addpoint/DANNON/300/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"addpoint",
+						"DANNON",
+						"300",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add [DANNON, 300 points, 10/31 10AM] to user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/addpoint/DANNON/300/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"addpoint",
+								"DANNON",
+								"300",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:14:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Successfully updated"
+				}
+			]
+		},
+		{
+			"name": "add [UNILEVER, 200 points, 10/31 11AM] to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/addpoint/UNILEVER/200/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"addpoint",
+						"UNILEVER",
+						"200",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add [UNILEVER, 200 points, 10/31 11AM] to user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/addpoint/UNILEVER/200/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"addpoint",
+								"UNILEVER",
+								"200",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:15:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Successfully updated"
+				}
+			]
+		},
+		{
+			"name": "add [DANNON, -200 points, 10/31 3PM] to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/addpoint/DANNON/-200/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"addpoint",
+						"DANNON",
+						"-200",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add [DANNON, -200 points, 10/31 3PM] to user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/addpoint/DANNON/-200/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"addpoint",
+								"DANNON",
+								"-200",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:15:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Successfully updated"
+				}
+			]
+		},
+		{
+			"name": "add [MILLER COORS, 10,000 points , 11/1 2PM] to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/addpoint/MILLER COORS/10000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"addpoint",
+						"MILLER COORS",
+						"10000",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add [MILLER COORS, 10,000 points , 11/1 2PM] to user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/addpoint/MILLER COORS/10000/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"addpoint",
+								"MILLER COORS",
+								"10000",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:15:51 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Successfully updated"
+				}
+			]
+		},
+		{
+			"name": "add [DANNON, 1000 points 11/2 2PM] to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/addpoint/DANNON/1000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"addpoint",
+						"DANNON",
+						"1000",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add [DANNON, 1000 points 11/2 2PM] to user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/addpoint/DANNON/1000/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"addpoint",
+								"DANNON",
+								"1000",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:16:05 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Successfully updated"
+				}
+			]
+		},
+		{
+			"name": "deduct 5000 points from user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/deduct/5000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"deduct",
+						"5000",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "deduct 5000 points from user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/deduct/5000/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"deduct",
+								"5000",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:16:19 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"DANNON\",\n        \"points\": -100,\n        \"transactionDate\": \"2020-12-03T21:16:19.9305226\"\n    },\n    {\n        \"name\": \"UNILEVER\",\n        \"points\": -200,\n        \"transactionDate\": \"2020-12-03T21:16:19.9305226\"\n    },\n    {\n        \"name\": \"MILLER COORS\",\n        \"points\": -4700,\n        \"transactionDate\": \"2020-12-03T21:16:19.9305226\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "A subsequent query to the points balance route, after the deduction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/points/userpoints?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"points",
+						"userpoints"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "A subsequent query to the points balance route, after the deduction",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/points/userpoints?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"points",
+								"userpoints"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Dec 2020 03:16:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"UNILEVER\",\n        \"points\": 0\n    },\n    {\n        \"name\": \"MILLER COORS\",\n        \"points\": 5300\n    },\n    {\n        \"name\": \"DANNON\",\n        \"points\": 1000\n    }\n]"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

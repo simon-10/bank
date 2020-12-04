@@ -1,5 +1,8 @@
 package com.simon.bank.domain;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
@@ -8,9 +11,9 @@ import javax.persistence.OneToOne;
 public class User {
     @Id
     private  Integer id;
-    private String name;
 
     @OneToOne
+    @Cascade(CascadeType.ALL)
     private Account account;
 
     public User(Integer id, Account account) {
@@ -30,13 +33,6 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public Account getAccount() {
         return account;

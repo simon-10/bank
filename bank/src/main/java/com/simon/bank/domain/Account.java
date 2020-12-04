@@ -1,5 +1,8 @@
 package com.simon.bank.domain;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -19,12 +22,16 @@ public class Account {
 
 
     @OneToMany
-    private List<Transaction> transactions=new LinkedList<>();
+    @Cascade(CascadeType.ALL)
+    private List<Transaction> transactions;
 
 
     public Account(int balance){
         this.balance=balance;
+        this.transactions=new LinkedList<>();
     }
+
+    public Account(){}
 
     public Integer getAccountId() {
         return accountId;
